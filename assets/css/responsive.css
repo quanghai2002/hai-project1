@@ -1,0 +1,150 @@
+/* pc */
+@media (min-width: 64em) {
+}
+/* mobile and tablet */
+@media (max-width: 63.9375em) {
+  .header__nav-list:first-child {
+    display: none;
+  }
+  .pricing-crad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-form-wrap-head {
+    text-align: center;
+  }
+  .heading-item {
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .heading-list:last-child {
+    display: none;
+  }
+  .metrics-item {
+    min-height: 162px;
+  }
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .header__nav-item-link {
+    -webkit-tap-highlight-color: transparent;
+  }
+  .header__nav-list:first-child {
+    display: none;
+  }
+  .content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .wrap-card {
+    margin-bottom: 16px;
+  }
+  .card {
+    padding-bottom: 20px;
+  }
+
+  .metrics-item__subhead {
+    text-align: center;
+  }
+  .highlighted-visual {
+    width: unset;
+    height: unset;
+  }
+  .highlighted-header-wrap {
+    text-align: center;
+  }
+  .testimonials-item {
+    margin-bottom: 0;
+  }
+  .pricing {
+    margin-top: 40px;
+  }
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+  .header__nav-list:first-child {
+    display: none;
+  }
+  .header__nav-list:last-child {
+    display: none;
+  }
+  .supplier {
+    flex-wrap: wrap;
+  }
+  .highlighted-visual {
+    width: unset;
+    height: unset;
+  }
+  li.header__nav-list {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+  }
+  .header__logo-text {
+    font-size: 3.9rem;
+    line-height: 4.3rem;
+  }
+  .header__logo-icon {
+    width: unset;
+    height: unset;
+  }
+  .header__logo-icon-svg {
+    width: 40px;
+    height: 60px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .heading {
+    width: unset;
+  }
+  .visuals {
+    width: unset;
+    height: unset;
+  }
+  .heading {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .supplier-list {
+    text-align: center;
+  }
+  .metrics-item {
+    margin-bottom: 14px;
+    text-align: center;
+    padding: 0 4px;
+  }
+  .highlighted-header-wrap {
+    text-align: center;
+  }
+  .contact-form-wrap-head {
+    margin-left: unset;
+  }
+  .form-control {
+    padding: 20px 0;
+    padding-left: 24%;
+  }
+
+  .contact-info {
+    padding: 0 6px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-info-item {
+    width: unset;
+  }
+  .footer-copyright {
+    padding: 16px 0;
+  }
+  .footer {
+    position: relative;
+    margin-bottom: 0;
+  }
+}
